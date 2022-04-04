@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.imagen{
+    background-image: url(../imagenes/gunsNroses.jpg);
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.letrero{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+    font-size: 65px;
+    text-shadow: 0px 0px 2px #000;
+    max-height: 80%;  
+}
+
+.contenedor_padre{
+    display: flex;
+    flex-direction: row;
+}
+
+.parrafo{
+    font-family: 'Roboto', sans-serif;
+    padding: 15px;
+    text-align: justify;
+    background: #012b50;
+    color: white;
+    display: block;
+}
+
+.pagina{
+    max-width: 20em;
+    margin: 1em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    box-shadow: 0 6px 16px #999;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+.foto img{
+    height: 230px;
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.foto3 img{
+    height: 230px;
+    width: 300px;
+    border-radius: 5px 5px 0px 0px;
+    
+}
+
+.name{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 10px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.descripcion{
+    margin: 10px;
+    height: 40vh;
+    padding: 5px;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.bottom{
+    color: #FFF;
+    background: #012b50;
+    border-radius: 0px 0px 7px 7px;
+    height: 50px;
+}
+
+.bottom h4{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.final{
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
